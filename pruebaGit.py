@@ -3,7 +3,7 @@
 ################################
 # Autor: Junior Montilla       #
 # Version: 0.1                 #
-# python version: 2.6.5        #
+# Python version: 2.6.5        #
 ################################
 
 import os 
