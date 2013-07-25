@@ -3,8 +3,8 @@
 ################################
 # Autor: Junior Montilla       #
 # Version: 0.1                 #
+# python version: 2.6.5        #
 ################################
-
 
 import os 
 
@@ -17,6 +17,7 @@ print chr(27)+"[0;36m"+"_  /_/ /  / / /_/ // /__ _  ,<  / /_/ /_  /_/ /(__  ) "
 print chr(27)+"[0;36m"+"/_.___//_/  \__,_/ \___/ /_/|_| \____/_  .___//____/  "
 print chr(27)+"[0;36m"+"                                    /_/              "
 print  "\n"
+
 
 def  ver_contenido():
   e = os.environ
@@ -35,7 +36,6 @@ def main():
 	opcion  =  raw_input(">")
 	if opcion ==  "1":
 		ver_contenido() 
-
 
 
 
