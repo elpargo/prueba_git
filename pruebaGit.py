@@ -26,13 +26,13 @@ def ver_contenido():
     variable = raw_input("Ponga la variable de entorno a consultar\n>")
     variable = variable.upper()
 
-    for i in e:  # con esto se recorre los elementos de el objeto  e
-        # con esto decimos que si un elemento n de el objeto e es igual a
-        # lo que entra por stdin se ejecuten las siguientes declaraciones
-        if i == variable:
-            print 
-            print "el contenido de su variable es: %s" % e[variable]
-            print 5*"\n"
+    if e.has_key(variable):
+        print 
+        print "el contenido de %s es: %s" % (variable,e[variable])
+        print 5*"\n"
+    else:
+        print
+        print "No existe la variable de entorno %s" % variable
 
 
 def main():
