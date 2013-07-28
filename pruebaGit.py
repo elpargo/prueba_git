@@ -24,7 +24,7 @@ def ver_contenido():
     # aqui el usuario introduce el nombre de la variable de entorno de la
     # cual quiere ver lo que contiene
     variable = raw_input("Ponga la variable de entorno a consultar\n>")
-    variable.upper()
+    variable = variable.upper()
 
     for i in e:  # con esto se recorre los elementos de el objeto  e
         # con esto decimos que si un elemento n de el objeto e es igual a
